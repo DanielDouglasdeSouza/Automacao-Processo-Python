@@ -36,7 +36,7 @@ time.sleep(5)
 
 """Vamos agora ler um o arquivo baixado para pegar os indicadores"""
 
-"""Passo 4: Calcular os indicadores (Faturamento e quntidade de produtos)"""
+"""Passo 4: Calcular os indicadores (Faturamento e quantidade de produtos)"""
 import pandas 
 tabela = pandas.read_excel(r"C:\Users\User\Desktop\LiraHastag\Aula 1-Minicurso-Python\Vendas.xlsx")
 faturamento = tabela["Valor Final"].sum()
